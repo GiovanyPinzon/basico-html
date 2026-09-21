@@ -17,11 +17,32 @@
         <!--Seccion de transparencia y Privacidad-->
         <section>
             <h2>Aviso de Privacidad</h2>
-            <p>Los datos recopilados en este formulario (nombre e informacion de contacto) seran utilizados unica y exclusivamente para gestionar la reparacion y siguimento de los equipos o mobiliarios del ambiente de
+            <p>Los datos recopilados en este formulario (nombre e informacion de contacto) seran utilizados unica y
+                exclusivamente para gestionar la reparacion y siguimento de los equipos o mobiliarios del ambiente de
                 formacion. No sera compartidos por terceros. </p>
         </section>
+        <section>
+            <h2>Detalles del reporte</h2>
 
+            <form> action="#" method="POST">
+                <!--Campo de Texto Basico-->
+                <label for="nombreCompleto">Nombre Del Aprendiz:</label>
+                <input tipe="text" id="nombreCompleto" name="nombreCompleto" required>
+                <br><br>
+
+                <!--Lista Desplegable (Comobox)-->
+                <label for="tipoNovedad"> Tipo de Novedad:</label>
+                <select id="tipoNovedad" name="tipoNovedad">
+                    <option value="">Seleccione una categoria...</option>
+                    <option value="hardware">Daño en equipo de computo</option>
+                    <option value="software">Falla de software o red</option>
+                    <option value="infraestructura">daño en mobiliario o electricidad</option>
+                </select>
+                <br><br>
+            </form>
+        </section>
         <!--Aqui iniciaremos nuestro formulario en el siguiente paso-->
-  </main>
- </body>
+    </main>
+</body>
+
 </html>
